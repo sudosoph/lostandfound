@@ -1,24 +1,24 @@
 <template name="postSubmit">
   <form class="main form page">
-    <div class="form-group {{errorClass 'item-title'}}">
-      <label class="control-label" for="item-title">Item title</label>
+    <div class="form-group {{errorClass 'itemtitle'}}">
+      <label class="control-label" for="itemtitle">Item title</label>
       <div class="controls">
-          <input name="item-title" id="item-title" type="text" value="{{item-title}}" placeholder="Item lost or found" class="form-control"/>
-          <span class="help-block">{{errorMessage 'item-title'}}</span>
+          <input name="itemtitle" id="itemtitle" type="text" value="{{itemtitle}}" placeholder="Item lost or found" class="form-control"/>
+          <span class="help-block">{{errorMessage 'itemtitle'}}</span>
       </div>
     </div>
-    <div class="form-group {{errorClass 'item-description'}}">
-      <label class="control-label" for="item-description">Item description</label>
+    <div class="form-group {{errorClass 'itemdescription'}}">
+      <label class="control-label" for="itemdescription">Item description</label>
       <div class="controls">
-          <input name="item-description" id="item-description" type="text" value="{{item-description}}" placeholder="Item description" class="form-control"/>
-          <span class="help-block">{{errorMessage 'item-description'}}</span>
+          <input name="itemdescription" id="itemdescription" type="text" value="{{itemdescription}}" placeholder="Item description" class="form-control"/>
+          <span class="help-block">{{errorMessage 'itemdescription'}}</span>
       </div>
     </div>
-    <div class="form-group {{errorClass 'location-tags'}}">
-      <label class="control-label" for="location-tags">Location Tags</label>
+    <div class="form-group {{errorClass 'locationtags'}}">
+      <label class="control-label" for="locationtags">Location Tags</label>
       <div class="controls">
-          <input name="location-tags" id="location-tags" type="text" value="{{location-tags}}" placeholder="Item lost or found" class="form-control"/>
-          <span class="help-block">{{errorMessage 'location-tags'}}</span>
+          <input name="locationtags" id="locationtags" type="text" value="{{locationtags}}" placeholder="Item lost or found" class="form-control"/>
+          <span class="help-block">{{errorMessage 'locationtags'}}</span>
       </div>
     </div>
     <div class="form-group {{errorClass 'name'}}">

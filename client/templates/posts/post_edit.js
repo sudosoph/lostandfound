@@ -11,7 +11,7 @@ Template.postEdit.helpers({
   }
 });
 
-Template.postEdit.events({
+Template.postSubmit.events({
   'submit form': function(e) {
     e.preventDefault();
 
@@ -27,7 +27,7 @@ Template.postEdit.events({
     }
 
     var errors = validatePost(postProperties);
-    if (errors.title || errors.url)
+    if (errors.itemtitle || errors.name)
       return Session.set('postEditErrors', errors);
 
     Posts.update(currentPostId, {$set: postProperties}, function(error) {
