@@ -7,6 +7,15 @@
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
+html{
+    background:url(http://www.bittbox.com/caleb/free_high_res_texture_55.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+
 body {
   background: #eee;
   color: #666666; }
@@ -33,8 +42,10 @@ body {
   /* For modern browsers */
   /* For IE 6/7 (trigger hasLayout) */
   *zoom: 1;
-  position: relative;
-  opacity: 1; }
+  position: relatve;
+  opacity: 1;
+
+  }
   .post:before, .post:after {
     content: "";
     display: table; }
